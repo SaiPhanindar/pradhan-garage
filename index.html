@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pradhan Bike Garage</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background: #007bff;
+            color: #fff;
+            width: 100%;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1rem;
+            margin: 5px 0;
+        }
+
+        .info {
+            max-width: 1000px;
+            text-align: center;
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .info h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #007bff;
+        }
+
+        .info p {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            padding: 20px;
+            max-width: 1000px;
+            width: 100%;
+        }
+
+        .gallery-item {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+            width: 100%;
+            margin-top: 20px;
+            font-size: 0.9rem;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pradhan Bike Garage</h1>
+        <p>Owner: Kamdev Pradhan</p>
+        <p>Location: Xavier Square, Bhubaneswar</p>
+        <p>Timings: 8 AM - 9 PM</p>
+        <p>Contact: 9337125697</p>
+    </header>
+
+    <section class="info">
+        <h2>Our Services</h2>
+        <p>We offer a range of services including bike servicing, repair, and selling. Visit us to experience quality and reliable bike care.</p>
+    </section>
+
+    <section class="gallery">
+        <div class="gallery-item">
+            <img src="path-to-image1.jpg" alt="Pradhan Bike Garage Image 1">
+        </div>
+        <div class="gallery-item">
+            <img src="path-to-image2.jpg" alt="Pradhan Bike Garage Image 2">
+        </div>
+        <div class="gallery-item">
+            <img src="path-to-image3.jpg" alt="Pradhan Bike Garage Image 3">
+        </div>
+        <div class="gallery-item">
+            <img src="path-to-image4.jpg" alt="Pradhan Bike Garage Image 4">
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Pradhan Bike Garage | Contact: 9337125697</p>
+    </footer>
+</body>
+</html>
